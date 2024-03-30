@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('background-restaurant.jpg'); /* Path to your background image */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+}
+
+.container {
+    max-width: 500px;
+    margin: 50px auto; /* Center the container horizontally */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.restaurant-name {
+    font-family: cursive;
+    color: navy;
+}
+
+h2 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="date"],
+input[type="time"],
+input[type="number"],
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.centered-logo {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Menu Styles */
+.menu-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+.menu-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #FFFFFF !important; /* Set menu button text color to white */
+}
+
+
+.menu-list {
+    display: none;
+    position: absolute;
+    top: 30px;
+    right: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 5px 0;
+    z-index: 1;
+}
+
+.menu-list li {
+    list-style-type: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    color: black; /* Set menu item text color to black */
+}
+
+
+
+
+
+.menu-list li:hover {
+    background-color: #f4f4f4;
+}
